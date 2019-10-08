@@ -223,7 +223,7 @@ public class CountryList
         return null;
     }
 
-    public ArrayList <Country> findEmployees(CheckCountry tester)
+    public ArrayList <Country> findCountries(CheckCountry tester)
     {
         ArrayList <Country> tempCountryList = new ArrayList<>();
 

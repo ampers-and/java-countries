@@ -3,8 +3,8 @@ package com.ampersand.countries;
 public class Country
 {
     private String name;
-    private int population;
-    private int landMassSize;
+    private int population; //long vs int - int holds up to 2 ^31 ~= 2 bil; all pop < 2 bil
+    private int landMassSize; //^^
     private int medianAge;
 
     public Country(String name, int population, int landMassSize, int medianAge)
